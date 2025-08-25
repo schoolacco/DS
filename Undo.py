@@ -15,7 +15,7 @@ while True:
         print("No")
     elif i == '1':
         text = input()
-        words = " ".split(text)
+        words = list(text)
         for item in words:
             undo_stack.append(item)
     elif i == "2":
